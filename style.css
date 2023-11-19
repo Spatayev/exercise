@@ -1,0 +1,140 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    color: #bbaffc;
+    font-size: 1.1rem;
+    font-family: "Hanken Grotesk";
+}
+h1 {
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+h2 {
+    font-size: 2rem;
+    color: #fbfdff;
+    font-weight: 700;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 95vh;
+}
+.result {
+    width: 370px;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-image: radial-gradient(circle, #8b84df, #332ceb);
+    border-radius: 25px;
+    padding: 0 45px 0 45px;
+    text-align: center;
+}
+.circle {
+    flex-direction: column;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    background-color: #1127A995;
+    width: 170px;
+    height: 170px;
+    border-radius: 100%;
+}
+.number {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #fbfdff;
+}
+.summary {
+    width: 370px;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+img {
+    display: inline-block;
+    padding-right: 10px;
+}
+.right-section {
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.inside-section {
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    justify-content: space-between;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+.right-section .title{
+    font-size: 1.5rem;
+    color: #333c5a
+}
+.skills {
+    display: flex;
+    flex-direction: row;
+}
+.btn-confirm {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 250px;
+    height: 50px;
+    border-radius: 25px;
+    background-color: #333c5a;
+    text-decoration: none;
+    box-shadow: 2px 2px 4px 2px rgba(0, 0, 0, 0.3);
+    color: #fbfdff;
+    font-weight: 700;
+}
+.btn-confirm:hover {
+    transform: translateY(-2px);
+}
+.btn-confirm:active {
+    transform: translateY(2px);
+}
+
+.reaction {
+
+    background-color: rgba(213,156,160, 15%);
+}
+.reaction h3 {
+    color: #dc797c;
+}
+.memory {
+    background-color: rgba(245,219,151,15%);
+}
+.memory h3 {
+    color: #f2ba52;;
+}
+.verbal {
+    color: rgba(84,176,149,15%);
+    background-color: rgba(84,176,149,15%);
+}
+.verbal h3 {
+    color: #54b095;
+}
+.visual {
+    background-color: rgba(52,60,166,15%);
+}
+.visual h3 {
+    color: #343ca6;
+}
+p span {
+    color: #333c5a;
+    font-weight: 700;
+}
+p {
+    color: #8f919e;
+}
+
+
+
